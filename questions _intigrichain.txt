@@ -1,0 +1,83 @@
+
+
+What's the difference between git fetch and git pull?
+Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull on the other hand brings the copy of the remote directory changes into the local repository.
+What is AWS?
+AWS Meaning: The Amazon Web Services (AWS) platform provides more than 200 fully featured services from data centers located all over the world, and is the world's most comprehensive cloud platform.
+Amazon web service is an online platform that provides scalable and cost-effective cloud computing solutions.
+AWS is a broadly adopted cloud platform that offers several on-demand operations like compute power, database storage, content delivery, etc., to help corporates scale and grow.
+AWS Services
+Amazon has many services for cloud applications. Let us list down a few key services of the AWS ecosystem and a brief description of how developers use them in their business.
+Amazon has a list of services:
+Compute service
+Storage
+Database
+Networking and delivery of content
+Security tools
+Developer tools
+Management tools
+--AWS EC2, AWS Lambda, AWS S3, EBS, DynamoDB, RDS, VPC, Route53, IAM,
+what is difference between in flask and django?
+ 
+
+What is Backend Development?
+Web development activities that are done at the back end of programs are referred to as back end development. Back-end development covers server-side web application logic and integration and activities, like writing APIs, creating libraries, and working with system components instead of frontend development, which focuses on customer-facing services and programs. Backend developers build code that allows a database and an application to communicate with one another. Backend developers take care and maintain the back-end of a website, Including databases, servers, and apps, and they control what you don't see.
+
+how to convert tuples into list?
+Python list method list() takes sequence types and converts them to lists. This is used to convert a given tuple into list. Note ? Tuple are very similar to lists with only difference that element values of a tuple can not be changed and tuple elements are put between parentheses instead of square bracket.
+how to join two table in sql?
+Let's look at a selection from the "Orders" table:
+
+OrderID	CustomerID	OrderDate
+10308	2	1996-09-18
+10309	37	1996-09-19
+10310	77	1996-09-20
+Then, look at a selection from the "Customers" table:
+
+CustomerID	CustomerName	ContactName	Country
+1	Alfreds Futterkiste	Maria Anders	Germany
+2	Ana Trujillo Emparedados y helados	Ana Trujillo	Mexico
+3	Antonio Moreno Taquería	Antonio Moreno	Mexico
+Notice that the "CustomerID" column in the "Orders" table refers to the "CustomerID" in the "Customers" table. The relationship between the two tables above is the "CustomerID" column.
+
+Then, we can create the following SQL statement (that contains an INNER JOIN), that selects records that have matching values in both tables:
+
+Example
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+and it will produce something like this:
+
+OrderID	CustomerName	OrderDate
+10308	Ana Trujillo Emparedados y helados	9/18/1996
+10365	Antonio Moreno Taquería	11/27/1996
+what is difference between list and tupples in python?
+ 
+what is MVC?
+Image result for what is MVC
+MVC (Model-View-Controller) is a pattern in software design commonly used to implement user interfaces, data, and controlling logic. It emphasizes a separation between the software's business logic and display. This "separation of concerns" provides for a better division of labor and improved maintenance.
+String function
+string is one data type in python  and it contains characters , it is represented in inverted commas.
+Django- Post method
+Why POST method is used?
+The POST Method
+POST is used to send data to a server to create/update a resource. Some notes on POST requests: POST requests are never cached. POST requests do not remain in the browser history.
+Put Method- WSGI
+Web Server Gateway Interface
+WSGI stands for Web Server Gateway Interface, and ASGI stands for Asynchronous Server Gateway interface. They both specify the interface and sit in between the web server and a Python web application or framework
+PUT method is used to update the data in the database.
+Panda- empty Frame
+to empty the daatframe - use df.dropna command
+What is Encapsulation?
+Encapsulation is one of the key concepts of object-oriented languages like Python, Java, etc. Encapsulation is used to restrict access to methods and variables. In encapsulation, code and data are wrapped together within a single unit from being modified by accident.
+Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
+What is an abstract class in Python?
+Abstract classes are classes that contain one or more abstract methods. An abstract method is a method that is declared, but contains no implementation. Abstract classes cannot be instantiated, and require subclasses to provide implementations for the abstract methods.
+What is abstraction in Python?
+Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user. This is one of the core concepts of object-oriented programming (OOP) languages.
+How to find the name starting with H with SQL query?
+SELECT * FROM department WHERE NAME LIKE 'H%';
+What is git push used for?
+The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+Git clone
+git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository.
